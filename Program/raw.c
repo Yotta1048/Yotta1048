@@ -96,6 +96,50 @@ x += 1 - adds 1 to x and assigns value
 
 
 */
+/*Chapter 6
+binary - 010101110
+binary representation - 2 4 8 16 32 64 128 256 512 1024 2048 4096 8192 16384
+bit -single 0 or 1
+signed integer - most left bit is the sign (positive - 0 and negative - 1)
+unsigned integer - does not have a binary digit at beginning to represent sign
+long long int - stores large int
+short int- stores short int
+%u - reads unsigned int
+%hd - read short int
+%ld - read long int
+
+*/
+/*Chapter 7
+narrowest to widest data type
+char- 
+short
+int 
+unsigned int
+long
+unsigned long int
+float - hold up to 10^38 number but with precision of 6 digits not of more
+	place f at the end of numbers n = 5.605f
+double - hold up to 10^308 with 15 digits of precision
+long double - biggest container we have 
+
+%e - put in exponental
+&g - program decided to do exponental or floating
+%f - write with a floating point number
+
+casting
+frac_part = f - (int) f; - (type) variable gives int value not float
+
+
+adding multiple values
+
+int -> unsigned int -> long int -> unsigned long int
+float -> double -> 
+
+typedef char var;- define a new type called var that has properties of char
+sizeof(type-name) -  tells us how many bits there are as int value
+1 bit = 8 byte 
+
+*/
 /*C code functions
 if (condition) {
 
@@ -123,7 +167,7 @@ do {
 	code
 }
 while (condition);
-for ( i = 0, i < 5, i++) {
+for ( i = 0; i < 5; i++) {
 		action
 		break will leave for
 		continue will finish iteration of loop but continue with the next
@@ -164,6 +208,12 @@ struct myPerson{
 	struct myPerson Person1 = {3, 'f', "Hello"};
 	Person1.Name = "text"; -- not allowed use in code strcpy(Person1.Name, "some text");
 	
+*/
+/*C Libraries
+<stdio.h> - 
+<float.h> -
+
+
 */
 /*********************************************************************
 Program name: raw.c
